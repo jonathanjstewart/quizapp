@@ -1,0 +1,307 @@
+{
+    "id": 2,
+    "name": "Python Quiz",
+    "questions": 
+    [
+        {
+            "question":"How do you output 'Hello World' in Python?:",
+            "questionNumber":1,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "print('Hello World')",
+                    "answer": true
+                    
+                },
+                {
+                    "qid": 2,
+                    "name": "paste('Hello World')",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "shout('Hello World')",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "console.output('Hello World')",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"How do you make a comment in Python?:",
+            "questionNumber":2,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "// My Comment!",
+                    "answer": false
+                },
+                {
+                    "qid": 2,
+
+                    "name": "# My Comment!",
+                    "answer": true
+                },
+                {
+                    "qid": 3,
+                    "name": "<!-- My Comment! -->",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "/* My Comment! */",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"Which of the following cannot be used as a variable name in Python?:",
+            "questionNumber":3,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "my_var",
+                    "answer": false
+                },
+                {
+                    "qid": 2,
+
+                    "name": "_myvar",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "Myvar",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "my-var",
+                    "answer": true
+                }
+            ]
+
+        },
+
+        {
+            "question":"How do you create a function in Python?:",
+            "questionNumber":4,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "def myFunction()",
+                    "answer": true
+                },
+                {
+                    "qid": 2,
+
+                    "name": "create myFunction()",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "function myFunction()",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "function = myFunction()",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"Which method can return a string in all upper case?:",
+            "questionNumber":5,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "toUpperCase()",
+                    "answer": false
+                },
+                {
+                    "qid": 2,
+
+                    "name": "upper()",
+                    "answer": true
+                },
+                {
+                    "qid": 3,
+                    "name": "upperCase()",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "uppercase()",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"Which operator multiplies numbers:",
+            "questionNumber":6,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "*",
+                    "answer": true
+                },
+                {
+                    "qid": 2,
+
+                    "name": "X",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "#",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "!",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"How do you compare two values in Python?:",
+            "questionNumber":7,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "==",
+                    "answer": true
+                },
+                {
+                    "qid": 2,
+
+                    "name": "<>",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "!!",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "=",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"How to do you stop a loop in Python?:",
+            "questionNumber":8,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "return",
+                    "answer": false
+                },
+                {
+                    "qid": 2,
+
+                    "name": "exit",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "break",
+                    "answer": true
+                },
+                {
+                    "qid": 4,
+                    "name": "stop",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"What will be the output of the following code?:  print type(type(int))",
+            "questionNumber":9,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "type 'int'",
+                    "answer": false
+                },
+                {
+                    "qid": 2,
+
+                    "name": "type 'type'",
+                    "answer": true
+                },
+                {
+                    "qid": 3,
+                    "name": "error",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "0",
+                    "answer": false
+                }
+            ]
+
+        },
+
+        {
+            "question":"Which is the term used to describe a function that is defined inside a class?:",
+            "questionNumber":10,
+            "responses": 
+            [
+                {
+                    "qid": 1,
+                    "name": "Module",
+                    "answer": false
+                },
+                {
+                    "qid": 2,
+
+                    "name": "Abstract Class",
+                    "answer": false
+                },
+                {
+                    "qid": 3,
+                    "name": "Void Function",
+                    "answer": false
+                },
+                {
+                    "qid": 4,
+                    "name": "Method",
+                    "answer": true
+                }
+            ]
+
+        }
+        
+    ]
+}

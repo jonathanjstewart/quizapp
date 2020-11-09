@@ -1,0 +1,296 @@
+{
+  "id": 1,
+  "name": "JavaScript Quiz",
+  "questions": [
+    {
+      "question": "Which one of these is a JavaScript package manager?:",
+      "questionNumber": 1,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "node.js",
+          "answer": false
+
+        },
+        {
+          "qid": 2,
+          "name": "TypeScript",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "npm",
+          "answer": true
+        },
+        {
+          "qid": 4,
+          "name": "chocolatey",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "How do you write 'Hello World' in an alert box?:",
+      "questionNumber": 2,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "alertBox('Hello World');",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "msg('Hello World');",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "alert('Hello World');",
+          "answer": true
+        },
+        {
+          "qid": 4,
+          "name": "msgBox('Hello World');",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "How do you create a function in JavaScript?:",
+      "questionNumber": 3,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "function:myFunction()",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "function myFunction()",
+          "answer": true
+        },
+        {
+          "qid": 3,
+          "name": "function = myFunction()",
+          "answer": false
+        },
+        {
+          "qid": 4,
+          "name": "myFunction() = function",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "How do you call a function named 'myFunction'?:",
+      "questionNumber": 4,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "call myFunction()",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "myFunction()",
+          "answer": true
+        },
+        {
+          "qid": 3,
+          "name": "call function myFunction()",
+          "answer": false
+        },
+        {
+          "qid": 4,
+          "name": "call = myFunction()",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "How to write an IF statement in JavaScript?:",
+      "questionNumber": 5,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "if i == 5 then",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "if i = 5 then",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "if i = 5",
+          "answer": false
+        },
+        {
+          "qid": 4,
+          "name": "if (i == 5)",
+          "answer": true
+        }
+      ]
+
+    },
+
+    {
+      "question": "How does a WHILE loop start?:",
+      "questionNumber": 6,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "while i = 1 to 10",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "while (i <= 10; i++)",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "while (i <= 10)",
+          "answer": true
+        },
+        {
+          "qid": 4,
+          "name": "while i <= 10",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "How does a FOR loop start?:",
+      "questionNumber": 7,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "for (i <= 5; i++)",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "for (i = 0; i <= 5)",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "for i = 1 to 5",
+          "answer": false
+        },
+        {
+          "qid": 4,
+          "name": "for (i = 0; i <= 5; i++",
+          "answer": true
+        }
+      ]
+
+    },
+
+    {
+      "question": "How do add a comment in a JavaScript?:",
+      "questionNumber": 8,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "<!-- My Comment! -->",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "--> My Comment! <--",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "// My Comment!",
+          "answer": true
+        },
+        {
+          "qid": 4,
+          "name": "** My Comment! **",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "How do you declare a JavaScript variable?:",
+      "questionNumber": 9,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "variable carName",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "v carName",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "var carName",
+          "answer": true
+        },
+        {
+          "qid": 4,
+          "name": "myVar carName",
+          "answer": false
+        }
+      ]
+
+    },
+
+    {
+      "question": "Which operator is used to assign a value to a variable?:",
+      "questionNumber": 10,
+      "responses": [
+        {
+          "qid": 1,
+          "name": "*",
+          "answer": false
+        },
+        {
+          "qid": 2,
+
+          "name": "-",
+          "answer": false
+        },
+        {
+          "qid": 3,
+          "name": "+",
+          "answer": false
+        },
+        {
+          "qid": 4,
+          "name": "=",
+          "answer": true
+        }
+      ]
+
+    }
+
+  ]
+}

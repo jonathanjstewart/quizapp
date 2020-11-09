@@ -1,0 +1,30 @@
+<h1>Jonathan's Quiz Application</h1>
+
+
+
+<div class="col-6 text-right">
+    Select Quiz:
+    <select [(ngModel)]="quizName" (change)="selectQuiz(quizName)">
+      <option *ngFor="let currentQuiz of quizes" [value]="currentQuiz.quizId">{{currentQuiz.name}}</option>
+    </select>
+  </div>
+
+<form #quizForm="ngForm" (ngSubmit)="onSubmit()"><hr>
+    <div class="card p-2 mb-2" *ngFor="let quiz of questionN">
+        <div class="card-body"><hr>
+            <label> {{ getQuestion(quiz) }}</label>
+            <div *ngFor="let option of quiz.responses; let i=index">
+                <div>
+                    <input type="radio" id="{{quiz.questionNumber+''+i}}" name={{quiz.questionNumber}} ngModel [value]="option.qid" (change)="getAnswer(quiz.questionNumber, option.name, option.answer)">
+                    <label for="{{quiz.questionNumber+''+i}}">{{option.name}}</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-outline-primary" type="submit">Submit Test</button>
+    
+    <h2>Questions Answered Correctly: </h2>
+    <pre id="whereToPrint"></pre>
+    <h2>Your Score: </h2>
+    <h1><pre id="score"></pre></h1>
+</form>
