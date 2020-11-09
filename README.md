@@ -1,7 +1,10 @@
 # Running this application with Node JS
 
-I've setup a Node JS server to run the application. The server file is named "server.js". 
-You'll have to install the node express module using `npm install --save express` to get the NodeJS server working. You can then run the application using `node server.js`
+I've setup a Node JS server to run the application. The server file is named "server.js".
+
+To get the Node JS server running properly, you'll need to create the build using `ng build --prod`.
+After that, you'll have to install the node express module using `npm install --save express` to get the NodeJS server working. 
+You can then run the application using `node server.js`
 
 Otherwise, you can use `ng serve` to run the application.
 
